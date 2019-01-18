@@ -34,7 +34,6 @@ blocks:
       - name: RSpec
         commands:
           - checkout
-          - ls -l /DoesNotExist
           - echo "make rspec"
 
       - name: Lint code
