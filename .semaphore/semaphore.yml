@@ -20,14 +20,6 @@ blocks:
           - echo "Docker build..."
           - echo "done"
 
-  - name: "Smoke tests"
-    task:
-      jobs:
-      - name: Smoke
-        commands:
-          - checkout
-          - echo "make smoke"
-
   - name: "Unit tests"
     task:
       jobs:
